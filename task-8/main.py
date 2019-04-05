@@ -39,4 +39,4 @@ def calc_N(M):
 
     return result
     
-calc_N(M)
+print(calc_N(M))

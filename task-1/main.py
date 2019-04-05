@@ -36,5 +36,4 @@ probabilities = map(lambda value: value["probability"], random_value_inputs)
 if sum(probabilities) != 1:
     raise Exception('Sum of probabilities should be equal 1')
 
-print('Inputs = ', random_value_inputs)
 print(result(random_value_inputs))

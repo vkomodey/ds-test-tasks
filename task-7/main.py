@@ -14,3 +14,5 @@ def devided_at(N, m):
     return amount
 
 result = devided_at(4, 20)
+
+print(result)

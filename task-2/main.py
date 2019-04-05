@@ -8,3 +8,5 @@ def skalar_multiply(v1, v2):
     l = len(v1)
 
     return sum([ v1[i] * v2[i] for i in range(l) ])
+
+print(skalar_multiply(vector_1, vector_2))
